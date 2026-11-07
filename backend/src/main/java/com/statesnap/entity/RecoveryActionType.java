@@ -1,0 +1,11 @@
+package com.statesnap.entity;
+
+public enum RecoveryActionType {
+    NO_ACTION_REQUIRED,
+    EXECUTE_COMPENSATING_REFUND,
+    RESEND_CAPTURE_PROBE,
+    FORCE_ROLLBACK,
+    MANUAL_RECONCILIATION_REQUIRED,
+    UNSAFE_CONFLICT_DETECTED
+}
+
